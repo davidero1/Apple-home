@@ -1,0 +1,790 @@
+@media (max-width:600px) {
+    * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+       font-family: 'SF Pro text', 'SF Pro icons', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+       letter-spacing: 0.03rem;
+    }
+    
+    .banner {
+        background-color: rgba(22, 22, 23, .8);
+        height: 8vh;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .bannerinner {
+        display: flex;
+        justify-content: space-between;
+        width:auto;
+        padding-top: 2.5vh;
+        z-index: 2;
+    }
+    
+    .logobox {
+        margin-left: 4vh;
+    }
+    
+    .fa-brands {
+        color: rgb(211, 211, 211);
+        font-size: 3.5vh;
+    }
+    
+    .navbox {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        width: 30%;
+        margin: auto;
+        display: none;
+    }
+
+    .navbox:hover, .navul:hover {
+        display: flex;
+    }
+    
+    .navul {
+        list-style-type: none;
+        display: flex; /* Horizontal layout by default */
+        flex-direction: row;
+        margin: auto;
+        display: none;
+    }
+    
+    .navli {
+        color: rgba(211, 211, 211, 0.881);
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: right;
+        display: none;
+    }
+    
+    .navli a {
+        color: rgba(211, 211, 211, 0.881);
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-right: 3.7rem;
+        text-align: center;
+    }
+    
+    .iconsbox {
+        display: flex;
+        justify-content: space-between;
+        width: 18vw;
+        margin-right: 3rem;
+    }
+
+    .barsicon {
+        display: flex;
+    }
+    
+    .fa-solid {
+        color: rgb(211, 211, 211);
+        font-size: 2.9vh;
+    }
+    
+    .bannerbkg {
+        background-color: rgba(22, 22, 23);
+        height: 8vh;
+        width: 100%;
+        z-index:0;
+        margin-top: -4.7rem;
+    }
+
+    header {
+        background-image: url("hero_the_instigators__fnq2kc6fiwa6_small_2x.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 90vh;
+        background-position: center;
+    }
+    
+    .headeritembox {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+        height: 90vh;
+    }
+    
+    .hib-logobox {
+        margin: auto;
+        margin-top: 5rem;
+    }
+    
+    .hib-apltv {
+        height: 2.5rem;
+        width: 6rem;
+        margin: auto;
+    }
+    
+    .hib-infobox {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: 33vh;
+        margin-bottom: 5vh;
+        width: 55vw;
+    }
+    
+    .instigtxt {
+        width: 270px;
+        height: 36px;
+        margin: auto;
+    }
+    
+    .headerpara {
+        color: white;
+        font-size: 3vh;
+        text-align: center;
+    }
+    
+    a.Alink-streamnow:link, a.Alink-streamnow:visited {
+        background-color: white;
+        color: #000;
+        padding: 2vh 1.7vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.4vh;
+        border-radius: 2.5rem;
+        width: 20vw;
+        margin: auto;
+        text-align: center;
+    }
+    
+    a.Alink-streamnow:hover, a.Alink-streamnow:active {
+        color: #000;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+    
+    .ipadprobox {
+        background-image: url("hero_ipadpro__bpt7a9d8sh42_small_2x.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 80vh;
+        background-position: center;
+    }
+    
+    .ipb-infobox {
+        margin: auto;
+        width: 71vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 6.6vh;
+    }
+    
+    .hipbib {
+        color: white;
+        font-size: 5vh;
+        text-align: center;
+    }
+    
+    .pipbib {
+        color: white;
+        font-size: 2.9vh;
+        text-align: center;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    
+    .ipb-buttonbox {
+        display: flex;
+        margin: auto;
+        width: 31.8vw;
+        margin-top: 2vh;
+        justify-content: space-between;
+    }
+    
+    a.Alink-learnmore:link, a.Alink-learnmore:visited {
+        background-color: #0071e3;
+        color: white;
+        padding: 1.36vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.5rem;
+        width: 18vw;
+        text-align: center;
+    }
+    
+    a.Alink-learnmore:hover, a.Alink-learnmore:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    a.Alink-buy:link, a.Alink-buy:visited {
+        color: #288ef4;
+        padding: 1.2vh 1.1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.1vh;
+        border-radius: 2.3rem;
+        width: 11vw;
+        text-align: center;
+        border: 1px solid #288ef4;
+    }
+    
+    a.Alink-buy:hover, a.Alink-buy:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    .storebox {
+        background-image: url("aplstore.png");
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-attachment: scroll;
+        height: 95vh;
+        background-position: center;
+        background-color: #f5f5f7;
+        width: 100%;
+        margin-top: 2vh;
+    }
+    
+    .sb-buttonbox {
+        width: 7vw;
+        margin-top: 77vh;
+        border: 2px splid red;
+        margin-left: 40vw;
+    }
+    
+    a.Alink-shop:link, a.Alink-shop:visited {
+        color: #0071e3;
+        padding: 1.3vh 1.1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.4vh;
+        border-radius: 2.3rem;
+        width: 15.1vw;
+        text-align: center;
+        border: 1px solid #0071e3;
+    }
+    
+    a.Alink-shop:hover, a.Alink-shop:active {
+        color: white;
+        background-color: #0071e3;
+    }
+
+    .section2 {
+        background-color: white;
+    }
+    
+    .gridpair1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .iphonebox-s2 {
+        background-image: url("promo_iphone_family_a__fmgvq2o4ug66_small_2x.jpg");
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-attachment: scroll;
+        height: 100vh;
+        background-position: center;
+        width: 97.6vw;
+        margin-top: -2.5rem;
+    }
+    
+    .iphoneboxinner-s2 {
+        width: 60vw;
+        margin: auto;
+        height: 26vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ipbs2-textbox {
+        width: 60vw;
+        margin: auto;
+    }
+    
+    .hipbs2 {
+        color: white;
+        font-size: 5vh;
+        text-align: center;
+    }
+    
+    .pipbs2 {
+        color: white;
+        font-size: 2.9vh;
+        text-align: center;
+        line-height: 2.2rem;
+        padding-top: 1rem;
+    }
+    
+    .ipbs2-buttonbox {
+        display: flex;
+        width: 41vw;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    a.Alink-iphonelearnmore:link, a.Alink-iphonelearnmore:visited {
+        background-color: #0071e3;
+        color: white;
+        padding: 1.4vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.5rem;
+        width: 18vw;
+        text-align: center;
+    }
+    
+    a.Alink-iphonelearnmore:hover, a.Alink-iphonelearnmore:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    a.Alink-shopiphone:link, a.Alink-shopiphone:visited {
+        color: #288ef4;
+        padding: 1.3vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.3rem;
+        width: 20vw;
+        text-align: center;
+        border: 1px solid #288ef4;
+    }
+    
+    a.Alink-shopiphone:hover, a.Alink-shopiphone:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    .aplaibox {
+        background-image: url("promo_ai__couihqxznyvm_small_2x.jpg");
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-attachment: scroll;
+        height: 100vh;
+        background-position: center;
+        width: 97.6vw;
+        margin-top: -6.7rem;
+    }
+    
+    .aplaiboxinner-s2 {
+        width: 66vw;
+        margin: auto;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 12vh;
+    }
+    
+    .aibs2-textbox {
+        width: 60vw;
+        margin: auto;
+    }
+    
+    .haibs2 {
+        color: black;
+        font-size: 5vh;
+        text-align: center;
+    }
+    
+    .paibs2 {
+        color: black;
+        font-size: 2.9vh;
+        text-align: center;
+        line-height: 2.55rem;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    
+    .subpaibs2 {
+        color: gray;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+    
+    sup {
+        font-size: 1.4vh;
+        font-weight: 700;
+    }
+    
+    .aibs2-buttonbox {
+        display: flex;
+        width: 41.5vw;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    a.Alink-ailearnmore:link, a.Alink-ailearnmore:visited {
+        background-color: #0071e3;
+        color: white;
+        padding: 1.35vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.5rem;
+        width: 18vw;
+        text-align: center;
+    }
+    
+    a.Alink-ailearnmore:hover, a.Alink-ailearnmore:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    a.Alink-aifilm:link, a.Alink-aifilm:visited {
+        color: #0071e3;
+        padding: 1.25vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.15vh;
+        border-radius: 2.3rem;
+        width: 21vw;
+        text-align: center;
+        border: 1px solid #0071e3;
+    }
+    
+    a.Alink-aifilm:hover, a.Alink-aifilm:active {
+        color: white;
+        background-color: #0071e3;
+    }
+
+    .gridpair2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .macbookbox {
+        background-image: url("promo_macbook_air_m3__e43jegok3wuq_small_2x.jpg");
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-attachment: scroll;
+        height: 100vh;
+        background-position: center;
+        width: 97.6vw;
+        margin-top: -6.7rem;
+    }
+    
+    .macbookboxinner-s2 {
+        width: 60vw;
+        margin: auto;
+        height: 20.6vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mbb-textbox {
+        width: 60vw;
+        margin: auto;
+    }
+    
+    .hmbb {
+        color: black;
+        font-size: 5vh;
+        text-align: center;
+    }
+    
+    .pmbb {
+        color: black;
+        font-size: 2.9vh;
+        text-align: center;
+        line-height: 2.2rem;
+        padding-top: 1rem;
+    }
+    
+    .mbb-buttonbox {
+        display: flex;
+        width: 31.7vw;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    a.Alink-maclearnmore:link, a.Alink-maclearnmore:visited {
+        background-color: #0071e3;
+        color: white;
+        padding: 1.4vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.5rem;
+        width: 18vw;
+        text-align: center;
+    }
+    
+    a.Alink-maclearnmore:hover, a.Alink-maclearnmore:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    a.Alink-macbuy:link, a.Alink-macbuy:visited {
+        color: #288ef4;
+        padding: 1.2vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.3rem;
+        width: 11.3vw;
+        text-align: center;
+        border: 1px solid #288ef4;
+    }
+    
+    a.Alink-macbuy:hover, a.Alink-macbuy:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    .visionprobox {
+        background-image: url("promo_apple_vision_pro__f4v4zp0sum2y_small_2x.jpg");
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-attachment: scroll;
+        height: 100vh;
+        background-position: center;
+        width: 97.6vw;
+        margin-top: -6.7rem;
+    }
+    
+    .visionproboxinner-s2 {
+        width: 66vw;
+        margin: auto;
+        height: 19.6vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 65vh;
+    }
+    
+    .vpro-textbox {
+        width: 60vw;
+        margin: auto;
+    }
+    
+    .hvpro {
+        color: black;
+        font-size: 5vh;
+        text-align: center;
+    }
+    
+    .pvpro {
+        color: black;
+        font-size: 2.9vh;
+        text-align: center;
+        line-height: 2.55rem;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    
+    .vpro-buttonbox {
+        display: flex;
+        width: 31.7vw;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    a.Alink-vprolearnmore:link, a.Alink-vprolearnmore:visited {
+        background-color: #0071e3;
+        color: white;
+        padding: 1.35vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.5rem;
+        width: 18vw;
+        text-align: center;
+    }
+    
+    a.Alink-vprolearnmore:hover, a.Alink-vprolearnmore:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    a.Alink-vprobuy:link, a.Alink-vprobuy:visited {
+        color: #0071e3;
+        padding: 1.25vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.15vh;
+        border-radius: 2.3rem;
+        width: 11.3vw;
+        text-align: center;
+        border: 1px solid #0071e3;
+    }
+    
+    a.Alink-vprobuy:hover, a.Alink-vprobuy:active {
+        color: white;
+        background-color: #0071e3;
+    }
+
+    .gridpair3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .aplcardbox {
+        background-image: url("promo_apple_card__5cm7draujpey_small_2x.jpg");
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-attachment: scroll;
+        height: 100vh;
+        background-position: center;
+        width: 97.6vw;
+        margin-top: -6.8rem;
+    }
+    
+    .cardboxinner-s2 {
+        width: 60vw;
+        margin: auto;
+        height: 25.5vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cb-textbox {
+        width: 50vw;
+        margin: auto;
+    }
+    
+    .hcb {
+        color: black;
+        font-size: 5vh;
+        text-align: center;
+    }
+    
+    .pcb {
+        color: black;
+        font-size: 2.9vh;
+        text-align: center;
+        line-height: 2.2rem;
+        padding-top: 1rem;
+    }
+    
+    .cb-buttonbox {
+        display: flex;
+        width: 40.4vw;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    a.Alink-cardlearnmore:link, a.Alink-cardlearnmore:visited {
+        background-color: #0071e3;
+        color: white;
+        padding: 1.4vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.5rem;
+        width: 18vw;
+        text-align: center;
+    }
+    
+    a.Alink-cardlearnmore:hover, a.Alink-cardlearnmore:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    a.Alink-applynow:link, a.Alink-applynow:visited {
+        color: #288ef4;
+        padding: 1.3vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.3rem;
+        width: 20vw;
+        text-align: center;
+        border: 1px solid #288ef4;
+    }
+    
+    a.Alink-applynow:hover, a.Alink-applynow:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+    .apltradeinbox {
+        background-image: url("promo_iphone_tradein__bugw15ka691e_small_2x.jpg");
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-attachment: scroll;
+        height: 100vh;
+        background-position: center;
+        width: 97.6vw;
+        margin-top: -3.99rem;
+    }
+    
+    .tradeinboxinner-s2 {
+        width: 66vw;
+        margin: auto;
+        height: 24vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 12vh;
+    }
+    
+    .ti-textbox{
+        width: 60vw;
+        margin: auto;
+    }
+    
+    .hti {
+        color: black;
+        font-size: 5vh;
+        text-align: center;
+    }
+    
+    .pti {
+        color: black;
+        font-size: 2.9vh;
+        text-align: center;
+        line-height: 2.55rem;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    
+    sup {
+        font-size: 1.4vh;
+        font-weight: 700;
+    }
+    
+    .ti-buttonbox {
+        display: flex;
+        width: 26vw;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    a.Alink-getestimate:link, a.Alink-getestimate:visited {
+        background-color: #0071e3;
+        color: white;
+        padding: 1.35vh 1vw;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.2vh;
+        border-radius: 2.5rem;
+        width: 25vw;
+        text-align: center;
+    }
+    
+    a.Alink-getestimate:hover, a.Alink-getestimate:active {
+        color: white;
+        background-color: #0071e3;
+    }
+    
+}
