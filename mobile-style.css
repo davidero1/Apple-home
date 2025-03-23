@@ -31,7 +31,8 @@
         display: flex;
         justify-content: space-between;
         width:auto;
-        padding-top: 2.5vh;
+        height: 8vh;
+        padding-top: 3vh;
         z-index: 2;
     }
     
@@ -86,7 +87,7 @@
     .iconsbox {
         display: flex;
         justify-content: space-between;
-        width: 18vw;
+        width: 24vw;
         margin-right: 3rem;
     }
 
@@ -104,7 +105,7 @@
         height: 8vh;
         width: 100%;
         z-index:0;
-        margin-top: -4.7rem;
+        margin-top: -7.4rem;
     }
 
     header {
@@ -141,7 +142,7 @@
         margin: auto;
         height: 33vh;
         margin-bottom: 5vh;
-        width: 55vw;
+        width: 66vw;
     }
     
     .instigtxt {
@@ -164,7 +165,7 @@
         display: inline-block;
         font-size: 2.4vh;
         border-radius: 2.5rem;
-        width: 20vw;
+        width: 40vw;
         margin: auto;
         text-align: center;
     }
@@ -176,7 +177,7 @@
     .section1 {
         display: flex;
         flex-direction: column;
-        margin-top: 2vh;
+        margin-top: 0vh;
     }
     
     .ipadprobox {
@@ -214,7 +215,7 @@
     .ipb-buttonbox {
         display: flex;
         margin: auto;
-        width: 31.8vw;
+        width: 52vw;
         margin-top: 2vh;
         justify-content: space-between;
     }
@@ -225,9 +226,9 @@
         padding: 1.36vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.5rem;
-        width: 18vw;
+        font-size: 2vh;
+        border-radius: 1.3rem;
+        width: 30vw;
         text-align: center;
     }
     
@@ -241,9 +242,9 @@
         padding: 1.2vh 1.1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.1vh;
-        border-radius: 2.3rem;
-        width: 11vw;
+        font-size: 2vh;
+        border-radius: 1.5rem;
+        width: 17vw;
         text-align: center;
         border: 1px solid #288ef4;
     }
@@ -258,18 +259,17 @@
         background-repeat: no-repeat;
         background-size: 80%;
         background-attachment: scroll;
-        height: 95vh;
+        height: 80vh;
         background-position: center;
         background-color: #f5f5f7;
         width: 100%;
-        margin-top: 2vh;
+        margin-top: 0vh;
     }
     
     .sb-buttonbox {
-        width: 7vw;
-        margin-top: 77vh;
-        border: 2px splid red;
-        margin-left: 40vw;
+        width: 30vw;
+        margin-top: 60vh;
+        margin-left: 37vw;
     }
     
     a.Alink-shop:link, a.Alink-shop:visited {
@@ -277,9 +277,9 @@
         padding: 1.3vh 1.1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.4vh;
+        font-size: 2vh;
         border-radius: 2.3rem;
-        width: 15.1vw;
+        width: 27vw;
         text-align: center;
         border: 1px solid #0071e3;
     }
@@ -303,12 +303,12 @@
     .iphonebox-s2 {
         background-image: url("promo_iphone_family_a__fmgvq2o4ug66_small_2x.jpg");
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: cover;
         background-attachment: scroll;
         height: 100vh;
         background-position: center;
-        width: 97.6vw;
-        margin-top: -2.5rem;
+        width: 100%;
+        margin-top: 0rem;
     }
     
     .iphoneboxinner-s2 {
@@ -320,7 +320,7 @@
     }
     
     .ipbs2-textbox {
-        width: 60vw;
+        width: 70vw;
         margin: auto;
     }
     
@@ -332,15 +332,15 @@
     
     .pipbs2 {
         color: white;
-        font-size: 2.9vh;
+        font-size: 2.5vh;
         text-align: center;
-        line-height: 2.2rem;
+        line-height: 3rem;
         padding-top: 1rem;
     }
     
     .ipbs2-buttonbox {
         display: flex;
-        width: 41vw;
+        width: 66vw;
         justify-content: space-between;
         margin: auto;
     }
@@ -351,9 +351,9 @@
         padding: 1.4vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.5rem;
-        width: 18vw;
+        font-size: 2vh;
+        border-radius: 1.5rem;
+        width: 30vw;
         text-align: center;
     }
     
@@ -367,9 +367,9 @@
         padding: 1.3vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.3rem;
-        width: 20vw;
+        font-size: 2vh;
+        border-radius: 1.5rem;
+        width: 30vw;
         text-align: center;
         border: 1px solid #288ef4;
     }
@@ -382,11 +382,11 @@
     .aplaibox {
         background-image: url("promo_ai__couihqxznyvm_small_2x.jpg");
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: cover;
         background-attachment: scroll;
         height: 100vh;
         background-position: center;
-        width: 97.6vw;
+        width: 100%;
         margin-top: -6.7rem;
     }
     
@@ -400,7 +400,7 @@
     }
     
     .aibs2-textbox {
-        width: 60vw;
+        width: 70vw;
         margin: auto;
     }
     
@@ -432,7 +432,7 @@
     
     .aibs2-buttonbox {
         display: flex;
-        width: 41.5vw;
+        width: 66vw;
         justify-content: space-between;
         margin: auto;
     }
@@ -443,9 +443,9 @@
         padding: 1.35vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.5rem;
-        width: 18vw;
+        font-size: 2vh;
+        border-radius: 2rem;
+        width: 30vw;
         text-align: center;
     }
     
@@ -459,9 +459,9 @@
         padding: 1.25vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.15vh;
-        border-radius: 2.3rem;
-        width: 21vw;
+        font-size: 2vh;
+        border-radius: 2rem;
+        width: 35vw;
         text-align: center;
         border: 1px solid #0071e3;
     }
@@ -481,11 +481,11 @@
     .macbookbox {
         background-image: url("promo_macbook_air_m3__e43jegok3wuq_small_2x.jpg");
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: cover;
         background-attachment: scroll;
         height: 100vh;
         background-position: center;
-        width: 97.6vw;
+        width: 100%;
         margin-top: -6.7rem;
     }
     
@@ -498,7 +498,7 @@
     }
     
     .mbb-textbox {
-        width: 60vw;
+        width: 70vw;
         margin: auto;
     }
     
@@ -518,7 +518,7 @@
     
     .mbb-buttonbox {
         display: flex;
-        width: 31.7vw;
+        width: 55vw;
         justify-content: space-between;
         margin: auto;
     }
@@ -529,9 +529,9 @@
         padding: 1.4vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.5rem;
-        width: 18vw;
+        font-size: 2vh;
+        border-radius: 2rem;
+        width: 30vw;
         text-align: center;
     }
     
@@ -545,9 +545,9 @@
         padding: 1.2vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.3rem;
-        width: 11.3vw;
+        font-size: 2vh;
+        border-radius: 2rem;
+        width: 20vw;
         text-align: center;
         border: 1px solid #288ef4;
     }
@@ -560,11 +560,11 @@
     .visionprobox {
         background-image: url("promo_apple_vision_pro__f4v4zp0sum2y_small_2x.jpg");
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: cover;
         background-attachment: scroll;
         height: 100vh;
         background-position: center;
-        width: 97.6vw;
+        width: 100%;
         margin-top: -6.7rem;
     }
     
@@ -578,7 +578,7 @@
     }
     
     .vpro-textbox {
-        width: 60vw;
+        width: 70vw;
         margin: auto;
     }
     
@@ -599,7 +599,7 @@
     
     .vpro-buttonbox {
         display: flex;
-        width: 31.7vw;
+        width: 55vw;
         justify-content: space-between;
         margin: auto;
     }
@@ -610,9 +610,9 @@
         padding: 1.35vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.5rem;
-        width: 18vw;
+        font-size: 2vh;
+        border-radius: 2rem;
+        width: 30vw;
         text-align: center;
     }
     
@@ -626,9 +626,9 @@
         padding: 1.25vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.15vh;
-        border-radius: 2.3rem;
-        width: 11.3vw;
+        font-size: 2vh;
+        border-radius: 2rem;
+        width: 20vw;
         text-align: center;
         border: 1px solid #0071e3;
     }
@@ -648,11 +648,11 @@
     .aplcardbox {
         background-image: url("promo_apple_card__5cm7draujpey_small_2x.jpg");
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: cover;
         background-attachment: scroll;
         height: 100vh;
         background-position: center;
-        width: 97.6vw;
+        width: 100%;
         margin-top: -6.8rem;
     }
     
@@ -665,7 +665,7 @@
     }
     
     .cb-textbox {
-        width: 50vw;
+        width: 73vw;
         margin: auto;
     }
     
@@ -685,7 +685,7 @@
     
     .cb-buttonbox {
         display: flex;
-        width: 40.4vw;
+        width: 66vw;
         justify-content: space-between;
         margin: auto;
     }
@@ -696,9 +696,9 @@
         padding: 1.4vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.5rem;
-        width: 18vw;
+        font-size: 2vh;
+        border-radius: 2rem;
+        width: 30vw;
         text-align: center;
     }
     
@@ -712,9 +712,9 @@
         padding: 1.3vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.3rem;
-        width: 20vw;
+        font-size: 2vh;
+        border-radius: 2rem;
+        width: 30vw;
         text-align: center;
         border: 1px solid #288ef4;
     }
@@ -727,16 +727,16 @@
     .apltradeinbox {
         background-image: url("promo_iphone_tradein__bugw15ka691e_small_2x.jpg");
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: cover;
         background-attachment: scroll;
         height: 100vh;
         background-position: center;
-        width: 97.6vw;
+        width: 100%;
         margin-top: -3.99rem;
     }
     
     .tradeinboxinner-s2 {
-        width: 66vw;
+        width: 70vw;
         margin: auto;
         height: 24vh;
         display: flex;
@@ -745,7 +745,7 @@
     }
     
     .ti-textbox{
-        width: 60vw;
+        width: 66vw;
         margin: auto;
     }
     
@@ -771,7 +771,7 @@
     
     .ti-buttonbox {
         display: flex;
-        width: 26vw;
+        width: 50vw;
         justify-content: space-between;
         margin: auto;
     }
@@ -782,9 +782,9 @@
         padding: 1.35vh 1vw;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.2vh;
-        border-radius: 2.5rem;
-        width: 25vw;
+        font-size: 2vh;
+        border-radius: 2rem;
+        width: 45vw;
         text-align: center;
     }
     
